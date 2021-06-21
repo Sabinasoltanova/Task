@@ -1,0 +1,37 @@
+.task1{
+    width: 400px;
+    height: 400px;
+    border: 20px solid red;
+    box-sizing: border-box;
+}
+p{
+    padding-left: 70px;
+}
+.task2 .color{
+    color: #52AADF;
+}
+.box1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+.box2{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin-top:20px ;
+}
+.task3 .dot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #F01117;
+    display: inline-block;
+    margin: 75px;
+}
+.task4 p:hover::after{
+    content:" Sabina"
+}
+.task5 .content:hover::before{
+    content: attr();
+}
